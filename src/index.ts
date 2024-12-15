@@ -20,6 +20,7 @@ export { DateToString } from "./documentOperations/DateToString";
 export { ToDate } from "./documentOperations/ToDate";
 export { Multiply } from "./documentOperations/Multiply";
 export { MergeObject } from "./documentOperations/MergeObject";
+export { Expression } from "./documentOperations/Expression";
 
 export async function aggregate(
   collection: Collection,
